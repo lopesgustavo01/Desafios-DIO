@@ -99,8 +99,17 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .9s ease;
 }
 
 .carrosel-filmes{
     margin-top: 50px;
 }
+
+.item:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 5 ease all;
+    padding: 0px 5px;
+ }
